@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "woodHouseSmoke",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "af1322a4-1457-43a6-b6ee-b2d4a94319cc"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "7e37e44a-b35d-4200-9d93-85f902296cbd"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "73d0cad7-1faa-4429-bef3-af49f33ea2c5"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "9c130471-adb2-42a5-abbe-b6fee92a41ab"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "2faf869c-8f36-428b-8d9f-439a448c9826"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "bc4c50cd-9901-4771-8670-a88aaaf88218"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "7d5a69c7-4c07-4ebe-bebf-bd0a7ab0ace1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

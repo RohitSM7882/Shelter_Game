@@ -1,0 +1,105 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "iglooMelting",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "112a8d95-7e9b-439f-a452-899fc196ea63"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "d61b76e5-fd1e-489c-b3e8-ce8b780de43d"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "31989c01-a5e4-433b-acb0-39242052cf37"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "850a194f-912d-4279-b396-31fe11c2b6de"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "11d9d76e-a541-4ec3-8c7b-475a24846ff9"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 1.2,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 1.2,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 1.2,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 1.2,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 1.2,
+      "func": "",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "f70bfdf6-2bcb-4f2c-88f0-5bc5afcc1053",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1600,
+  "height": 960,
+  "platformSettings": {},
+  "subMetas": {
+    "Dry-Land-BG2": {
+      "ver": "1.0.4",
+      "uuid": "36675617-def5-4a77-88ae-d69578956618",
+      "rawTextureUuid": "f70bfdf6-2bcb-4f2c-88f0-5bc5afcc1053",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1600,
+      "height": 960,
+      "rawWidth": 1600,
+      "rawHeight": 960,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

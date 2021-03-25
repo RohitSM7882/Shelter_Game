@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "wind",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "0167e873-1bbf-4331-baff-16b37a1241f6"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "813834a0-ee37-436a-b3cb-139ca4b7a469"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "704d0769-6639-49fb-b100-bef59923e64a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
