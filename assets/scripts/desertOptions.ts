@@ -232,8 +232,6 @@ export default class NewClass extends cc.Component {
 
     getOptions(){
 
-        console.log('getting options');
-
         var optionTab1 = this.node.getChildByName('optiontab1');
         var optionTab2 = this.node.getChildByName('optiontab2');
         var optionTab3 = this.node.getChildByName('optiontab3');

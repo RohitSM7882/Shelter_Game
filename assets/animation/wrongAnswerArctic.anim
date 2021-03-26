@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "wrongAnswerArctic",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "cc46940b-3375-436f-95d1-d954fbbf0601"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "888e7aee-2c89-4bb3-a15e-b9571143d523"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "3f522d64-98f9-4b6d-b729-d88a35048f75"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

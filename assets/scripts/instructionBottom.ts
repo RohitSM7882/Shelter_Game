@@ -16,6 +16,9 @@ export default class NewClass extends cc.Component {
     @property(cc.Button)
     nextTabButton: cc.Button = null;
 
+    @property(cc.Button)
+    tryAgainButtonArctic: cc.Button = null;
+
     @property
     labelInitialPosition = null;
     btnInitialPosition = null;
@@ -52,6 +55,10 @@ export default class NewClass extends cc.Component {
         else if(btnName.localeCompare('nextTab') == 0){
             this.nextTabButton.node.runAction(cc.moveTo(0.5,cc.v2(0,-180)));
         }
+        else if(btnName.localeCompare('tryAgainArctic') == 0){
+            this.tryAgainButtonArctic.node.runAction(cc.moveTo(0.5,cc.v2(0,-180)));
+
+        }
 
     }
 
@@ -65,6 +72,7 @@ export default class NewClass extends cc.Component {
     removeButton(){
 
         this.tryAgainButton.node.runAction(cc.moveTo(0.5,this.btnInitialPosition));
+        this.nextTabButton.node.runAction(cc.moveTo(0.5,this.btnInitialPosition));
 
     }
 
@@ -75,7 +83,7 @@ export default class NewClass extends cc.Component {
 
     }
 
-    
+
 
     start () {
 

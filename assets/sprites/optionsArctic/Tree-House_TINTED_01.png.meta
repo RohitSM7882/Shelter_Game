@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "525c6051-bec4-43f2-bb2a-d988bd93518e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 374,
+  "height": 385,
+  "platformSettings": {},
+  "subMetas": {
+    "Tree-House_TINTED_01": {
+      "ver": "1.0.4",
+      "uuid": "b8e45245-38a2-4688-a347-c227aee2e56e",
+      "rawTextureUuid": "525c6051-bec4-43f2-bb2a-d988bd93518e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 374,
+      "height": 385,
+      "rawWidth": 374,
+      "rawHeight": 385,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

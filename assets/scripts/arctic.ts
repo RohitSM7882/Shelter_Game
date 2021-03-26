@@ -1,4 +1,6 @@
 import instructionTop from "./instructionTop";
+import arcticOptions from "./arcticOptions";
+
 const {ccclass, property} = cc._decorator;
 
 @ccclass
@@ -25,12 +27,15 @@ export default class NewClass extends cc.Component {
     @property(instructionTop)
     instrcutionTopRef: instructionTop = null;
 
+    @property(arcticOptions)
+    arcticOptionsRef: arcticOptions = null;
+
     // onLoad () {}
 
     loadScene(){
 
         cc.audioEngine.playEffect(this.backgroundMusic,true);
-        this.character.getComponent(cc.Animation).play('standingSnow').repeatCount = Infinity;
+        this.character.getComponent(cc.Animation).play('standingArctic').repeatCount = Infinity;
 
         var stmt1 = "Brr.. Rehna is in very cold region near the Arctic. she sure is \n adventurous.";
         var stmt2 = "Help her to find a nice house to survive the extreme cold.";
@@ -49,6 +54,11 @@ export default class NewClass extends cc.Component {
                     setTimeout(() => {
                         cc.audioEngine.playEffect(this.audio2,false);
 
+                        setTimeout(() => {
+                            this.arcticOptionsRef.getOptions();
+
+                        }, 1000);
+
                     }, 500);
 
                 }, 1000);
@@ -56,6 +66,13 @@ export default class NewClass extends cc.Component {
             }, 7000);
 
         }, 1000);
+
+    }
+
+    stopScene(){
+
+        cc.audioEngine.stopAllEffects();
+        this.arcticOptionsRef.removeChildAndSetPosition();
 
     }
 
