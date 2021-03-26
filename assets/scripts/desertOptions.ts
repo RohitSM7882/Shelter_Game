@@ -23,9 +23,6 @@ export default class NewClass extends cc.Component {
     @property(cc.Node)
     currentSelected: cc.Node = null;
 
-    @property(cc.Node)
-    canvas: cc.Node = null;
-
     @property(instrcutionTop)
     instructionTopRef: instrcutionTop = null;
 
@@ -65,15 +62,15 @@ export default class NewClass extends cc.Component {
     @property
     newChild = null;
     currentSelectedInitialPosition = null;
-    optionsInitialPosition = null;
-    nodeInitialPosition = null;
+    // optionsInitialPosition = null;
+    // nodeInitialPosition = null;
 
     // onLoad () {}
 
     onLoad(){
 
-        this.optionsInitialPosition = [ this.igloo.getPosition(), this.woodHouse.getPosition(), this.mudHouse.getPosition()];
-        this.nodeInitialPosition = this.node.getPosition();
+        // this.optionsInitialPosition = [ this.igloo.getPosition(), this.woodHouse.getPosition(), this.mudHouse.getPosition()];
+        // this.nodeInitialPosition = this.node.getPosition();
 
         this.igloo.on(cc.Node.EventType.TOUCH_START, ()=>{
             this.onTouchStart(this.igloo);
@@ -158,7 +155,6 @@ export default class NewClass extends cc.Component {
 
         this.newChild = cc.instantiate(this.iglooPrefab);
         this.newChild.setPosition(-10,35);
-        // this.canvas.addChild(this.newChild);
         this.node.parent.addChild(this.newChild);
 
         this.newChild.scaleX = 2;
@@ -178,7 +174,6 @@ export default class NewClass extends cc.Component {
 
         this.newChild = cc.instantiate(this.woodHousePrefab);
         this.newChild.setPosition(25,50);
-        // this.canvas.addChild(this.newChild);
         this.node.parent.addChild(this.newChild);
 
         this.newChild.getChildByName('smoke1').getComponent(cc.Animation).play('woodHouseSmoke').repeatCount = Infinity;
@@ -288,7 +283,7 @@ export default class NewClass extends cc.Component {
     deActivateNode(){
 
         this.node.active = false;
-        
+
     }
 
     start () {
