@@ -158,9 +158,7 @@ export default class NewClass extends cc.Component {
         character.runAction(cc.moveTo(2.4,cc.v2(110,0)));
 
         this.instructionBottomRef.getInstruction('Correct!',"An igloo is made of snow. It keeps the shelter warm because it has \n lots of air pockets. Also, its shape protects it from wind.");
-        // setTimeout(() => {
-        //     this.instructionBottomRef.getButton('nextTab');
-        // }, 12000);
+
     }
 
     runTreeHouseAnimation(){
